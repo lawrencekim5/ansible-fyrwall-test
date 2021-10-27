@@ -1,0 +1,5 @@
+[all:vars]
+ansible_sudo_pass=orca
+
+[hosts]
+192.168.30.136 ansible_user=orca ansible_python_interpreter="/usr/bin/env python3"
