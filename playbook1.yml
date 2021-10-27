@@ -1,3 +1,5 @@
+# A playbook is essentially where all the instructions of your automation task go
+
 - hosts: lab
   become: yes
   roles:
