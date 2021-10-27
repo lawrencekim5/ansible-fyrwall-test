@@ -7,3 +7,5 @@
   tags:
     lab
 
+# lab refers to the host file in the "inventories" folder. Used to denote the IP of the host machine
+# host machines in ansible can be thought of as the remote systems meant to be configured through automation tasks
