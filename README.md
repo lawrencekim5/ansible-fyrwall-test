@@ -1,15 +1,11 @@
+List playbook tasks
 
-# To Get a List of Playbook Tasks
-``` shell
-ansible-playbook -i inventories/hosts -K playbook1.yml --list-tasks
-```
+    ansible-playbook -i inventory -K playbook1.yml --list-tasks
 
-# To Run all Tasks in Playbook
-```shell
-ansible-playbook -i inventories/hosts -K playbook1.yml
-```
+Run all tasks in a playbook
 
-# To Run task with a Specific Tag - Example: Minikube installation
-```shell
-ansible-playbook -i inventories/hosts -K playbook1.yml -t minikube
-```
+    ansible-playbook -i inventory -K playbook1.yml
+
+Run tagged tasks in a playbook
+
+    ansible-playbook -i inventory-K playbook1.yml -t <tag>
